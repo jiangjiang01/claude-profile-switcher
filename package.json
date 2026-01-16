@@ -4,7 +4,7 @@
   "description": "CLI tool for managing Claude Code configuration profiles",
   "main": "src/index.js",
   "bin": {
-    "ccm": "./bin/ccm.js"
+    "ccm": "bin/ccm.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
