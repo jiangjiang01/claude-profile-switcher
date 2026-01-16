@@ -16,14 +16,14 @@ A CLI tool for managing Claude Code configuration profiles, enabling quick switc
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g claude-config-manager
+npm install -g @haiyangj/ccs
 ```
 
 ### Local Installation
 
 ```bash
-git clone <repository-url>
-cd ccm
+git clone https://github.com/haiyangj/ccs.git
+cd ccs
 npm install
 npm link
 ```

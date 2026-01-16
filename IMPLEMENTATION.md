@@ -120,7 +120,7 @@ ccm/
 ### Quick Start
 ```bash
 # Install locally
-cd ccm
+cd ccs
 npm install
 npm link
 

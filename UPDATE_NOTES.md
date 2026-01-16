@@ -90,3 +90,37 @@ ccm show
 
 **更新日期**: 2026-01-16
 **版本**: 1.0.0 → 1.0.1
+
+---
+
+## 包名更新记录
+
+### 最终包名: @haiyangj/ccs
+
+**发布命名**: `@haiyangj/ccs` (Haiyangj's Claude Config Switcher)
+
+**原因**: 原始包名 `claude-config-manager` 已被其他开发者占用
+
+**命名历史**:
+1. ❌ `claude-config-manager` - 已被占用
+2. ❌ `claude-profile-switcher` - 已被占用
+3. ✅ `@haiyangj/ccs` - 最终选择（作用域包）
+
+**安装方式**:
+```bash
+# 全局安装（推荐）
+npm install -g @haiyangj/ccs
+
+# 从源码安装
+git clone https://github.com/haiyangj/ccs.git
+cd ccs
+npm install
+npm link
+```
+
+**作用域包的优势**:
+- ✅ 不会与他人的包冲突
+- ✅ 明确的包归属权
+- ✅ 可以发布为私有包（免费）
+- ✅ 更好的组织结构
+

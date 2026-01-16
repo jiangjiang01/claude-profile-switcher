@@ -431,13 +431,13 @@ ccm add name url key       # Direct arguments
 
 ### NPM Package
 ```bash
-npm install -g @claude/config-manager
+npm install -g @haiyangj/ccs
 ```
 
 ### Manual Installation
 ```bash
-git clone https://github.com/your-org/ccm.git
-cd ccm
+git clone https://github.com/haiyangj/ccs.git
+cd ccs
 npm install
 npm link
 ```
